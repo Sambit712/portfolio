@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-08">
+    <metahttp equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width-device-width, initial-scale-1.0">
+        <title>My personal portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">home</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#services">services</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Full-stack DEVELOPER</p>
+                <h1>Hi, <span>SAMBIT</span> here<br>WELCOMES you ALL</h1>
+            </div>
+
+        </div>
+
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/WhatsApp Image 2022-06-09 at 11.42.30 PM.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        As a highly skilled and passionate full-stack developer, I am thrilled to introduce myself and
+                        share my commitment to
+                        creating exceptional digital experiences. With a strong foundation in both front-end and
+                        back-end technologies, I bring
+                        a unique blend of creativity and technical prowess to every project I undertake. My journey in
+                        software development has
+                        been marked by continuous learning and a relentless pursuit of excellence, which has enabled me
+                        to adapt to
+                        ever-evolving technology landscapes and deliver innovative solutions. Join me as I embark on
+                        this exciting journey,
+                        where code meets creativity, and where I aim to redefine the boundaries of what's possible in
+                        the world of web
+                        development. </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Cyber Security</span>Cleared basics and intermediate knowledge about ethical
+                                hacking and hacking</li>
+                            <li><span>Frontend/Backend Designer</span>Designing Web/App interfaces and developing
+                                softwares</li>
+                            <li><span>Data Analyst</span>Complete knowledge about datastructures and DBMS</li>
+                            <li><span>ML</span>Quite good proficiency in Machine Learning</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Have been doing freelancing for clients i have been getting over discord and other
+                                    social media platform</span>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020</span>Completed my high schooling from DPS Burdwan under CBSE board with
+                                79.8% with PCM as my majors</li>
+                            <li><span>Nov, 2022</span>completed a course regarding Intermediate and Semi Advance Cyber
+                                Security using youtube and other open-source material</li>
+                            <li><span>Feb, 2023</span>Completed a course on Elements of Data science by AWS</li>
+                            <li><span>Mar, 2023</span>Completed a course on Machine Learning Terminology and Process by
+                                AWS</li>
+                            <li><span>Aug, 2023</span>Completed a Certification exam of Python by Hackerrnak</li>
+                            <li><span>Sep, 2023</span>Completed a Certification exam of Javascript(intermediate) by
+                                Hackerrnak</li>
+                            <li><span>Sep, 2023</span>Completed a Certification exam of CSS(Intermediate) by Hackerrnak
+                            </li>
+                            <li><span>Sep, 2023</span>Completed a Certification exam of SQL(advanced) by Hackerrnak</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>Full Stack Development</h2>
+                    <p>I'm a Full-stack developer and versatile professional skilled in both front-end and back-end web
+                        development, capable of
+                        creating complete web applications, from user interfaces to server-side logic.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>Database Management expert</h2>
+                    <p>Im a expert database manager who can create, organize, retrieve, and manipulate large sets of
+                        structured data efficiently, ensuring data integrity and security</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>UI/UX developer</h2>
+                    <p>I am a UI/UX developer who designs and enhances user interfaces, focusing on creating intuitive,
+                        visually appealing, and
+                        user-friendly experiences for websites or applications, bridging design and functionality
+                        seamlessly.</p>
+                    <a href="#">learn more</a>
+
+                </div>
+
+            </div>
+
+        </div>
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images\ecomm.png">
+                        <div class="layer">
+                            <h3>Product Management App</h3>
+                            <p>This app helps you to efficiently manage an kep track of various items in your inventory
+                            </p>
+                            <a href="https://github.com/Sambit712/product-management-system/"><i
+                                    class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images\lab.png">
+                        <div class="layer">
+                            <h3>E-Commerce website</h3>
+                            <p>This site helps you with buying and selling of multiple products with ease</p>
+                            <a href="https://e-commerce-website-tau-one.vercel.app/"><i
+                                    class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images\4132666.png">
+                        <div class="layer">
+                            <h3>Social Media site</h3>
+                            <p>This site connects you to various talented people around the world</p>
+                            <a href="https://twt-production-1a1b.up.railway.app/"><i
+                                    class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a style="margin: auto; background-color: #ff004f;" href="#" class="btn">See more</a>
+            </div>
+        </div>
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p style="margin-bottom: 20px;"><i class="fa-solid fa-paper-plane"></i>kumarsambit982@gmail.com
+                        </p>
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/sambit-kumar-44b006266"><i
+                                    class="fa-brands fa-linkedin"></i></a>
+                            <a href=https://instagram.com/skmustang_1970?igshid=OGQ5ZDc2ODk2ZA==><i
+                                    class="fab fa-instagram"></i></a>
+                            <a href="http://Discordapp.com/users/900797171555762176"><i
+                                    class="fa-brands fa-discord"></i></a>
+                        </div>
+                        <a href="images\resume.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form>
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>copyright © Sambit.</p>
+            </div>
+        </div>
+
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            function opentab(tabname) {
+                for (tablink of tablinks) {
+                    tablink.classList.remove("active-link");
+                }
+                for (tabcontent of tabcontents) {
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+
+            }
+        </script>
+        <script>
+            var sidemeu = document.getElementById("sidemenu")
+            function openmenu() {
+                sidemeu.style.right = "0";
+            }
+            function openmenu() {
+                sidemeu.style.right = "-200px";
+            }
+        </script>
+</body>
+
+</html>
